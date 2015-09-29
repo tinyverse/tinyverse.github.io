@@ -1,0 +1,64 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 70px;
+  margin-bottom: 60px;
+  height: 100%;
+  background-image: url(
+"https://dl.dropboxusercontent.com/s/u3fs2koqwj7flzi/background.jpg");
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.myTransition {
+  transition: color 0.7s, background-color 0.2s;
+  -webkit-transition: color 0.7s, background-color 0.2s;
+  /* Safari */
+  
+  transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in;
+  transition-delay: initial;
+  -webkit-transition-delay: initial;
+}
+
+.navbar .myTransition:hover,
+#myNavbar .myTransition:hover,
+.myTransition:hover {
+  color: white;
+  background-color: #494747;
+}
+
+#about li {
+  font-size: 120%;
+}
+
+#portfolio ul {
+  display: table;
+  margin: 0 auto;
+}
+
+#portfolio li {
+  font-size: 110%;
+}
+
+.post-content {
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+}
+
+#email {
+  width: 100%;
+}
